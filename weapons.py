@@ -7,7 +7,7 @@ import time
 from urllib.request import urlopen, Request
 
 
-csv_header = ['Url', 'Name', 'Rarity', 'Damage', 'Weapon Type', 'Ammo Type', 'Season', 'Weapon Type']
+csv_header = ['Url', 'Name', 'Rarity', 'Damage', 'Weapon Type', 'Ammo Type', 'Season', 'Weapon Slot', 'Frame Type']
 # '|' special character to be replaced later by the page id
 base_url = 'https://www.light.gg/db/category/1?page=|&f=4%285%29%2C%2C%2C46%281360%3B1360%29'
 single_base_url = 'https://www.light.gg/db/items/'
@@ -61,6 +61,9 @@ async def proccess_single(session, _id, weapon_pos):
 		# in case webpage is empty
 		if not info:
 			raise Exception('Error on loading webpage')
+
+
+		db_frame = soup.find('div', id='special-perks').find('img')['title']
 		db_ammo_type = _filter(info[1].strong.text.capitalize())
 		#print(info[2])
 		db_season = _filter(info[2].strong.text.replace('Season ', ''))
@@ -79,7 +82,7 @@ async def proccess_single(session, _id, weapon_pos):
 
 		db_slot = li_text.replace('Weapon', '')
 		global weapons
-		weapons[weapon_pos] = weapons[weapon_pos] + [db_ammo_type, db_season, db_slot]
+		weapons[weapon_pos] = weapons[weapon_pos] + [db_ammo_type, db_season, db_slot, db_frame]
 
 		global global_requests
 		global_requests += 1
@@ -92,22 +95,6 @@ async def request_everything():
 		global weapons
 
 		await asyncio.gather(*[asyncio.create_task(proccess_single(session, info[0], pos)) for pos, info in enumerate(weapons)])
-
-
-		'''
-		# used for many request so it doesnt overload the server
-		end = 0
-		start = 0
-		batch_pos = 0
-		for batch_pos in range(100, len(weapons), 100):
-			start = batch_pos - 100
-			end = batch_pos
-			await asyncio.gather(*[asyncio.create_task(proccess_single(session, info[0], pos+start)) for pos, info in enumerate(weapons[start:end])])
-		start = batch_pos
-		await asyncio.gather(*[asyncio.create_task(proccess_single(session, info[0], pos+start)) for pos, info in enumerate(weapons[end:])])
-		print(f'done {batch_pos}')
-		'''
-		
 
 
 async def request_pages():

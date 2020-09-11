@@ -1,55 +1,55 @@
-Url,Name,Rarity,Damage,Weapon Type,Ammo Type,Season,Weapon Type
-3143732432,False Promises,Legendary,Kinetic,AutoRifle,Primary,11,Kinetic
-1690783811,The Forward Path,Legendary,Kinetic,AutoRifle,Primary,11,Kinetic
-4095896073,Accrued Redemption,Legendary,Kinetic,CombatBow,Primary,8,Kinetic
-211938782,Whispering Slab,Legendary,Kinetic,CombatBow,Primary,11,Kinetic
-4292849692,Crimil's Dagger,Legendary,Kinetic,HandCannon,Primary,5,Kinetic
-568515759,Chattering Bone,Legendary,Kinetic,PulseRifle,Primary,4,Kinetic
-1216130969,Cold Denial,Legendary,Kinetic,PulseRifle,Primary,11,Kinetic
-2408405461,Sacred Provenance,Legendary,Kinetic,PulseRifle,Primary,8,Kinetic
-3504336176,Night Watch,Legendary,Kinetic,ScoutRifle,Primary,6,Kinetic
-1982711279,Talons of the Eagle,Legendary,Kinetic,ScoutRifle,Primary,4,Kinetic
-3799980700,Transfiguration,Legendary,Kinetic,ScoutRifle,Primary,4,Kinetic
-2957367743,Toil and Trouble,Legendary,Kinetic,Shotgun,Special,4,Kinetic
-2199171672,Lonesome,Legendary,Kinetic,Sidearm,Primary,6,Kinetic
-3169616514,Bite of the Fox,Legendary,Kinetic,SniperRifle,Special,4,Kinetic
-3745990145,Long Shadow,Legendary,Kinetic,SniperRifle,Special,4,Kinetic
-686951703,The Supremacy,Legendary,Kinetic,SniperRifle,Special,4,Kinetic
-601592879,Age-Old Bond,Legendary,Void,AutoRifle,Primary,4,Energy
-821154603,Gnawing Hunger,Legendary,Void,AutoRifle,Primary,6,Energy
-3385326721,Reckless Oracle,Legendary,Void,AutoRifle,Primary,8,Energy
-720351795,Arsenic Bite-4b,Legendary,Arc,CombatBow,Primary,4,Energy
-2721249463,Tyranny of Heaven,Legendary,Solar,CombatBow,Primary,4,Energy
-607191995,Hollow Words,Legendary,Arc,FusionRifle,Special,11,Energy
-253196586,Main Ingredient,Legendary,Arc,FusionRifle,Special,4,Energy
-4094657108,Techeun Force,Legendary,Arc,FusionRifle,Special,4,Energy
-2209003210,Zealot's Reward,Legendary,Void,FusionRifle,Special,8,Energy
-2108920981,Orewing's Maul,Legendary,Void,GrenadeLauncher,Special,6,Energy
-1946491241,Truthteller,Legendary,Void,GrenadeLauncher,Special,11,Energy
-48643186,Ancient Gospel,Legendary,Solar,HandCannon,Primary,8,Energy
-1200824700,IKELOS_HC_v1.0.2,Legendary,Void,HandCannon,Primary,11,Energy
-654370424,Nation of Beasts,Legendary,Arc,HandCannon,Primary,4,Energy
-1835747805,Nature of the Beast,Legendary,Arc,HandCannon,Primary,11,Energy
-188882152,Last Perdition,Legendary,Void,PulseRifle,Primary,6,Energy
-3616586446,"First In, Last Out",Legendary,Arc,Shotgun,Special,11,Energy
-1096206669,IKELOS_SG_v1.0.2,Legendary,Solar,Shotgun,Special,11,Energy
-4020742303,Prophet of Doom,Legendary,Arc,Shotgun,Special,8,Energy
-3356526253,Wishbringer,Legendary,Solar,Shotgun,Special,5,Energy
-65611680,The Fool's Remedy,Legendary,Solar,Sidearm,Primary,11,Energy
-2009277538,The Last Dance,Legendary,Arc,Sidearm,Primary,4,Energy
-1253087083,IKELOS_SR_v1.0.2,Legendary,Solar,SniperRifle,Special,11,Energy
-3454326177,Omniscient Eye,Legendary,Solar,SniperRifle,Special,8,Energy
-1271343896,Widow's Bite,Legendary,Solar,SniperRifle,Special,11,Energy
-2742490609,Death Adder,Legendary,Solar,SubmachineGun,Primary,11,Energy
-2222560548,IKELOS_SMG_v1.0.2,Legendary,Arc,SubmachineGun,Primary,11,Energy
-407621213,Berenger's Memory,Legendary,Void,GrenadeLauncher,Heavy,11,Power
-4146702548,Outrageous Fortune,Legendary,Solar,GrenadeLauncher,Heavy,4,Power
-1972985595,Swarm of the Raven,Legendary,Void,GrenadeLauncher,Heavy,4,Power
-2545083870,Apex Predator,Legendary,Solar,RocketLauncher,Heavy,4,Power
-991314988,Bad Omens,Legendary,Void,RocketLauncher,Heavy,4,Power
-3669616453,Hoosegow,Legendary,Arc,RocketLauncher,Heavy,11,Power
-136525518,Shining Sphere,Legendary,Arc,RocketLauncher,Heavy,7,Power
-614426548,Falling Guillotine,Legendary,Void,Sword,Heavy,11,Power
-3629968765,Negative Space,Legendary,Solar,Sword,Heavy,11,Power
-4230993599,Steel Sybil Z-14,Legendary,Void,Sword,Heavy,4,Power
-35794111,Temptation's Hook,Legendary,Arc,Sword,Heavy,11,Power
+Url,Name,Rarity,Damage,Weapon Type,Ammo Type,Season,Weapon Slot
+614426548,Falling Guillotine,Legendary,Void,Sword,Heavy,11,Power,Vortex Frame
+3629968765,Negative Space,Legendary,Solar,Sword,Heavy,11,Power,Adaptive Frame
+4230993599,Steel Sybil Z-14,Legendary,Void,Sword,Heavy,4,Power,Adaptive Frame
+35794111,Temptation's Hook,Legendary,Arc,Sword,Heavy,11,Power,Caster Frame
+3143732432,False Promises,Legendary,Kinetic,AutoRifle,Primary,11,Kinetic,High-Impact Frame
+1690783811,The Forward Path,Legendary,Kinetic,AutoRifle,Primary,11,Kinetic,Adaptive Frame
+4095896073,Accrued Redemption,Legendary,Kinetic,CombatBow,Primary,8,Kinetic,Precision Frame
+211938782,Whispering Slab,Legendary,Kinetic,CombatBow,Primary,11,Kinetic,Lightweight Frame
+4292849692,Crimil's Dagger,Legendary,Kinetic,HandCannon,Primary,5,Kinetic,Aggressive Frame
+568515759,Chattering Bone,Legendary,Kinetic,PulseRifle,Primary,4,Kinetic,Lightweight Frame
+1216130969,Cold Denial,Legendary,Kinetic,PulseRifle,Primary,11,Kinetic,High-Impact Frame
+2408405461,Sacred Provenance,Legendary,Kinetic,PulseRifle,Primary,8,Kinetic,Aggressive Burst
+3504336176,Night Watch,Legendary,Kinetic,ScoutRifle,Primary,6,Kinetic,Lightweight Frame
+1982711279,Talons of the Eagle,Legendary,Kinetic,ScoutRifle,Primary,4,Kinetic,High-Impact Frame
+3799980700,Transfiguration,Legendary,Kinetic,ScoutRifle,Primary,4,Kinetic,High-Impact Frame
+2957367743,Toil and Trouble,Legendary,Kinetic,Shotgun,Special,4,Kinetic,Aggressive Frame
+2199171672,Lonesome,Legendary,Kinetic,Sidearm,Primary,6,Kinetic,Precision Frame
+3169616514,Bite of the Fox,Legendary,Kinetic,SniperRifle,Special,4,Kinetic,Aggressive Frame
+3745990145,Long Shadow,Legendary,Kinetic,SniperRifle,Special,4,Kinetic,Adaptive Frame
+686951703,The Supremacy,Legendary,Kinetic,SniperRifle,Special,4,Kinetic,Rapid-Fire Frame
+601592879,Age-Old Bond,Legendary,Void,AutoRifle,Primary,4,Energy,High-Impact Frame
+821154603,Gnawing Hunger,Legendary,Void,AutoRifle,Primary,6,Energy,Adaptive Frame
+3385326721,Reckless Oracle,Legendary,Void,AutoRifle,Primary,8,Energy,Rapid-Fire Frame
+720351795,Arsenic Bite-4b,Legendary,Arc,CombatBow,Primary,4,Energy,Lightweight Frame
+2721249463,Tyranny of Heaven,Legendary,Solar,CombatBow,Primary,4,Energy,Lightweight Frame
+607191995,Hollow Words,Legendary,Arc,FusionRifle,Special,11,Energy,Precision Frame
+253196586,Main Ingredient,Legendary,Arc,FusionRifle,Special,4,Energy,Precision Frame
+4094657108,Techeun Force,Legendary,Arc,FusionRifle,Special,4,Energy,Adaptive Frame
+2209003210,Zealot's Reward,Legendary,Void,FusionRifle,Special,8,Energy,Rapid-Fire Frame
+2108920981,Orewing's Maul,Legendary,Void,GrenadeLauncher,Special,6,Energy,Lightweight Frame
+1946491241,Truthteller,Legendary,Void,GrenadeLauncher,Special,11,Energy,Lightweight Frame
+48643186,Ancient Gospel,Legendary,Solar,HandCannon,Primary,8,Energy,Adaptive Frame
+1200824700,IKELOS_HC_v1.0.2,Legendary,Void,HandCannon,Primary,11,Energy,Precision Frame
+654370424,Nation of Beasts,Legendary,Arc,HandCannon,Primary,4,Energy,Adaptive Frame
+1835747805,Nature of the Beast,Legendary,Arc,HandCannon,Primary,11,Energy,Precision Frame
+188882152,Last Perdition,Legendary,Void,PulseRifle,Primary,6,Energy,Adaptive Frame
+3616586446,"First In, Last Out",Legendary,Arc,Shotgun,Special,11,Energy,Precision Frame
+1096206669,IKELOS_SG_v1.0.2,Legendary,Solar,Shotgun,Special,11,Energy,Rapid-Fire Frame
+4020742303,Prophet of Doom,Legendary,Arc,Shotgun,Special,8,Energy,Precision Frame
+3356526253,Wishbringer,Legendary,Solar,Shotgun,Special,5,Energy,Rapid-Fire Frame
+65611680,The Fool's Remedy,Legendary,Solar,Sidearm,Primary,11,Energy,SUROS Rapid-Fire
+2009277538,The Last Dance,Legendary,Arc,Sidearm,Primary,4,Energy,Omolon Adaptive Frame
+1253087083,IKELOS_SR_v1.0.2,Legendary,Solar,SniperRifle,Special,11,Energy,Rapid-Fire Frame
+3454326177,Omniscient Eye,Legendary,Solar,SniperRifle,Special,8,Energy,Rapid-Fire Frame
+1271343896,Widow's Bite,Legendary,Solar,SniperRifle,Special,11,Energy,Rapid-Fire Frame
+2742490609,Death Adder,Legendary,Solar,SubmachineGun,Primary,11,Energy,Lightweight Frame
+2222560548,IKELOS_SMG_v1.0.2,Legendary,Arc,SubmachineGun,Primary,11,Energy,Aggressive Frame
+407621213,Berenger's Memory,Legendary,Void,GrenadeLauncher,Heavy,11,Power,Rapid-Fire Frame
+4146702548,Outrageous Fortune,Legendary,Solar,GrenadeLauncher,Heavy,4,Power,Rapid-Fire Frame
+1972985595,Swarm of the Raven,Legendary,Void,GrenadeLauncher,Heavy,4,Power,Rapid-Fire Frame
+2545083870,Apex Predator,Legendary,Solar,RocketLauncher,Heavy,4,Power,Adaptive Frame
+991314988,Bad Omens,Legendary,Void,RocketLauncher,Heavy,4,Power,Aggressive Frame
+3669616453,Hoosegow,Legendary,Arc,RocketLauncher,Heavy,11,Power,Adaptive Frame
+136525518,Shining Sphere,Legendary,Arc,RocketLauncher,Heavy,7,Power,Adaptive Frame
